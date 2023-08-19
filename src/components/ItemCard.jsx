@@ -5,9 +5,6 @@ import { UseValue } from "../itemContext";
 
 function ItemCard({ name, price }) {
   const { handleAdd, handleRemove } = UseValue();
-
- 
-
   return (
     <div className={styles.itemCard}>
       <div className={styles.itemName}>{name}</div>
